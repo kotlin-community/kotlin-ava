@@ -1,0 +1,16 @@
+{
+  "name": "kotlin-ava",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "ava": ">=0.25.0",
+    "kotlin": ">=1.3.0",
+    "kotlin-test": ">=1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "kotlin": "^1.3.0",
+    "kotlin-test": "^1.3.0"
+  }
+}
