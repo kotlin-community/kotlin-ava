@@ -1,13 +1,7 @@
 package ava
 
 // TODO: throwsAsync, notThrowsAsync
-interface TestContext {
-    @JsName("plan")
-    fun plan(count: Int)
-
-    @JsName("log")
-    fun log(vararg values: Any)
-
+interface TestContext : ExecutionContext {
     @JsName("fail")
     fun fail(message: String? = null)
 
